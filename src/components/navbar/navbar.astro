@@ -6,21 +6,21 @@ import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
 const menuitems = [
   {
-    title: "Features",
+    title: "Eventos",
     path: "#",
     children: [
-      { title: "Action", path: "/" },
-      { title: "Another action", path: "#" },
-      { title: "Dropdown Submenu", path: "#" },
-      { title: "404 Page", path: "/404" },
+      { title: "Cumbre de Lideres 2023", path: "/" },
+      { title: "Histórico 2023", path: "#" },
+      { title: "M.I.N.U. RIO IV 2023", path: "#" },
+      { title: "MINU 2023", path: "/404" },
     ],
   },
   {
-    title: "Pricing",
+    title: "Sumate",
     path: "/pricing",
   },
   {
-    title: "About",
+    title: "Nosotros",
     path: "/about",
   },
   {
@@ -28,27 +28,25 @@ const menuitems = [
     path: "/blog",
   },
   {
-    title: "Contact",
+    title: "Contactanos",
     path: "/contact",
   },
 ];
 ---
 
-<Container>
-  <header class="flex flex-col lg:flex-row justify-between items-center my-5">
+<Container class="sticky top-0 z-40 w-full backdrop-blur flex-none transition-colors duration-500 lg:z-50 bg-violet ">
+  <header class="flex flex-col lg:flex-row justify-between items-center py-3">
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href="/" class="text-lg"
-          ><span class="font-bold text-slate-800">Astro</span><span
-            class="text-slate-500">ship</span
-          >
+        <a href="/"
+          > <img src="src/assets/AILE/AILE  blanco@4x-8.png" alt="LogoAILE" width="70px">
         </a>
         <div class="block lg:hidden">
-          <MenuIcon class="w-4 h-4 text-gray-800" />
+          <MenuIcon />
         </div>
       </div>
       <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
-        <ul class="flex flex-col lg:flex-row lg:gap-3">
+        <ul class="flex flex-col lg:flex-row lg:gap-3 text-white">
           {
             menuitems.map((item, index) => (
               <>
@@ -64,7 +62,7 @@ const menuitems = [
                   <li>
                     <a
                       href={item.path}
-                      class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900">
+                      class="flex lg:px-3 py-2 text-white hover:text-white-900">
                       {item.title}
                     </a>
                   </li>
@@ -79,11 +77,5 @@ const menuitems = [
         </div>
       </MenuItems>
     </Astronav>
-    <div>
-      <div class="hidden lg:flex items-center gap-4">
-        <a href="#">Log in</a>
-        <Link href="#" size="md">Sign up</Link>
-      </div>
-    </div>
   </header>
 </Container>
