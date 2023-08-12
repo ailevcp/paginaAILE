@@ -10,8 +10,14 @@ module.exports = {
       colors: {
         'violet': '#6314a7',
         'white': '#ffffff',
+        'light-gray': '#e6e6e6',
+
+
 
       },
+      backgroundImage: {
+        'aile-bg': "url('/src/assets/AILE/ailePortada.jpg')",
+      }
     },
   },
   plugins: [require("@tailwindcss/typography")],
