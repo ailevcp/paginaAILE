@@ -5,45 +5,48 @@ import heroImage from "@assets/AILE/ailePortada.jpg";
 ---
 
 <main
-  class="grid grid-cols-1 sm:py-20 justify-between place-items-center w-screen bg-gradient-to-r from-white to-light-gray lg:grid-cols-2 gap-2.5">
-  <div class="order-last xl:order-first py-8 px-4">
-    <h1
-      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter text-violet max-w-xl">
-      Bienvenidos a la Asociación AILE
-    </h1>
-    <p class="text-lg mt-4 text-slate-600 max-w-xl">
-      La Asociación AILE es una de las juventudes más grandes de Córdoba.<wbr />
-      Somos jóvenes comprometidos con el FUTURO, por eso nos dedicamos a FORMAR LÍDERES.
-      Hacemos Modelos ONU (MNU), jornadas de debate, y eventos para beneficiarios
-      para la sociedad.
-    </p>
-    <div class="mt-6 flex flex-col sm:flex-row gap-3">
-      <Link
-        href="#"
-        href="https://web3templates.com/templates/astroship-starter-website-template-for-astro"
-        target="_blank"
-        class="flex gap-1 items-center justify-center bg-violet"
-        rel="noopener">
-        ¡SUMATE!
-      </Link>
-      <Link
-        size="lg"
-        style="outline"
-        rel="noopener"
-        href="https://github.com/surjithctly/astroship"
-        class="flex gap-1 items-center justify-center"
-        target="_blank">
-        Doná
-      </Link>
+  class="grid grid-cols-1 justify-between place-items-center  w-screen bg-gradient-to-r from-white to-light-gray lg:grid-cols-2 gap-2.5">
+  <div class="order-last xl:order-first py-8 px-4 sm:py-20">
+    <div class="order-last xl:order-first py-8 px-4">
+      <h1
+        class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter text-violet max-w-xl">
+        Bienvenidos a la Asociación <span class="font-black">AILE</span>
+      </h1>
+      <p class="text-lg mt-4 text-slate-600 max-w-xl font-body">
+        La Asociación AILE es una de las juventudes más grandes de Córdoba.<wbr
+        />
+        Somos jóvenes comprometidos con el FUTURO, por eso nos dedicamos a FORMAR
+        LÍDERES. Hacemos Modelos ONU (MNU), jornadas de debate, y eventos para beneficiarios
+        para la sociedad.
+      </p>
+      <div class="mt-6 flex flex-col sm:flex-row gap-3">
+        <Link
+          href="#"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd5BQ7Upc9oS5lllSSFkfC08-OF7EPaha4FnqKXCk7XEiObwg/viewform"
+          target="_blank"
+          class="flex gap-1 items-center justify-center bg-violet"
+          rel="noopener">
+          ¡SUMATE!
+        </Link>
+        <Link
+          size="lg"
+          style="outline"
+          rel="noopener"
+          href="https://github.com/surjithctly/astroship"
+          class="flex gap-1 items-center justify-center"
+          target="_blank">
+          Doná
+        </Link>
+      </div>
     </div>
-  </div>
-  <div class="sm:w-full sm:h-full sm:relative">
-    <div class="sm:absolute sm:top-0 sm:right-0 sm:w-full sm:h-full">
-      <Image
-        src={heroImage}
-        alt="Hero de Aile"
-        class="object-cover sm:w-full sm:h-full"
-      />
+    <div class="sm:w-full sm:h-full sm:relative">
+      <div class="sm:absolute sm:top-0 sm:right-0 sm:w-full sm:h-full">
+        <Image
+          src={heroImage}
+          alt="Hero de Aile"
+          class="object-cover sm:w-full sm:h-full"
+        />
+      </div>
     </div>
   </div>
 </main>
