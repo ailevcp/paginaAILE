@@ -1,0 +1,55 @@
+---
+import { Image } from "astro:assets";
+import LogoCumbre from "@assets/AILE/CUMBRE DE LIDERES@4x-8.png";
+import LogoMINU from "@assets/AILE/MINU@4x-8.png";
+import LogoHIST from "@assets/AILE/Modelo historico@4x-8.png";
+import LogoCL from "@assets/AILE/Concurso Literario@4x-8.png";
+
+
+
+---
+
+<div class="mt-16 md:mt-10 display: grid bg-light-gray place-items-center">
+
+    <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight pt-5 text-violet px-3">
+      NUESTROS PROYECTOS
+    </h2>
+    <p class="text-lg mt-4 text-gray-700 max-w-3xl pb-5 px-3">
+      Trabajamos con más de 1.000 jóvenes en toda la provincia. Creemos en las formas alternativas de empoderar jóvenes y mejorar la educación, estos son nuestros proyectos:
+    </p>
+
+    <div class="grid sm:grid-cols-4 m-10 gap-10 px-10">
+                <a href="" class="hover:opacity-60">
+
+                     <Image
+                    src={LogoCumbre}
+                    alt="Logo Cumbre de Líderes"
+                    class="object-cover" 
+                    />
+
+
+                </a>
+                <a href="" class=" hover:opacity-60">
+                    <Image
+                    src={LogoMINU}
+                    alt="Logo MINU"
+                    class="object-cover" 
+                    />
+                </a>
+                <a href="" class=" hover:opacity-60">
+                    <Image
+                    src={LogoHIST}
+                    alt="Logo Modelo Histórico"
+                    class="object-cover" 
+                    />
+                </a>
+                <a href="" class="hover:opacity-60">
+                    <Image
+                    src={LogoCL}
+                    alt="Logo Concurso Literario"
+                    class="object-cover" 
+                    />
+                </a>
+    </div>
+  
+</div>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 740.58 364.58">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        font-family: MontserratRoman-Medium, Montserrat;
+        font-variation-settings: 'wght' 500;
+        font-weight: 500;
+      }
+
+      .cls-4 {
+        font-family: Lato-Italic, Lato;
+        font-size: 78.8px;
+      }
+
+      .cls-5 {
+        font-family: MontserratRoman-Bold, Montserrat;
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        font-size: 38.71px;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        fill: url(#Degradado_sin_nombre_8);
+      }
+
+      .cls-8 {
+        font-style: italic;
+      }
+
+      .cls-3 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-9 {
+        font-family: Lato-BlackItalic, Lato;
+        font-size: 165.47px;
+        font-weight: 800;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_8" data-name="Degradado sin nombre 8" x1="0" y1="212.92" x2="452.13" y2="212.92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e50051"/>
+      <stop offset=".03" stop-color="#ce035f"/>
+      <stop offset=".09" stop-color="#ad0875"/>
+      <stop offset=".14" stop-color="#920c87"/>
+      <stop offset=".21" stop-color="#7d0f95"/>
+      <stop offset=".28" stop-color="#6e129f"/>
+      <stop offset=".36" stop-color="#6513a5"/>
+      <stop offset=".49" stop-color="#6314a7"/>
+      <stop offset=".63" stop-color="#6513a5"/>
+      <stop offset=".72" stop-color="#6d129f"/>
+      <stop offset=".79" stop-color="#7c1096"/>
+      <stop offset=".85" stop-color="#900d89"/>
+      <stop offset=".9" stop-color="#aa0977"/>
+      <stop offset=".95" stop-color="#ca0462"/>
+      <stop offset=".99" stop-color="#e50051"/>
+    </linearGradient>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <path class="cls-7" d="m180.23,360.83l-12.56-7.79c-14.61-9.05-22.51-23.1-22.68-40.28l-.09-8.69c-21.65-12.19-41.44-27.4-59-45.26,3.2,11.1,2.07,22.64-3.44,33.8l-6.54,13.26-7.69-12.63c-8.94-14.67-9.65-30.77-2.04-46.18l3.25-6.56c-13.43-16.37-25.18-34.52-35-54.23-2.92-5.85-5.63-11.8-8.15-17.81,3.66,14.9.34,29.24-9.69,41.4l-9.4,11.41-4.6-14.05c-5.36-16.33-2.38-32.17,8.55-45.43l8.57-10.41C10.06,123.78,4.47,94.91,3,65.57c-.14-2.81,2.53-4.93,5.23-4.13h0c1.66.49,2.82,1.98,2.91,3.71.84,16.44,3.01,32.62,6.41,48.38l11.48,1.86c16.96,2.74,29.66,12.67,36.42,28.46l5.82,13.58-14.59-2.35c-16.16-2.61-28.44-11.75-35.41-26.27,5.84,21.5,14.03,42.1,24.35,61.35l11.6-.67c17.15-1,31.7,5.94,41.72,19.91l8.62,12-14.76.86c-14.26.82-26.71-3.86-36.26-13.47,15.09,23.6,33.57,44.75,55.04,62.54l11.35-5.59c15.42-7.6,31.52-6.87,46.18,2.09l12.61,7.7-13.26,6.53c-14.89,7.34-30.44,6.88-44.71-1.25,21.11,15.46,44.75,27.82,70.54,36.36l8.26-8.93c11.67-12.61,26.96-17.7,43.86-14.58l14.53,2.67-10.04,10.85c-10.36,11.2-23.59,16.45-38.25,15.31,26.38,6.6,53.01,8.8,79.16,7.02l2.56-11.34c3.79-16.75,14.49-28.81,30.68-34.58l13.92-4.96-3.27,14.41c-3.79,16.76-14.48,28.81-30.67,34.59l-2.61.92c30.47-3.34,60.14-12.05,87.88-25.45h-.19s7.49-12.74,7.49-12.74c8.7-14.81,22.55-23.05,39.72-23.64l14.77-.49-7.49,12.74c-7.87,13.42-19.99,21.42-34.96,23.24-13.92,7.81-28.22,14.36-42.79,19.64,9.22.78,18,4.4,25.87,10.84l11.46,9.35-14.03,4.66c-16.29,5.42-32.15,2.51-45.46-8.36l-8.85-7.24c-19.13,4.5-38.56,6.86-58.01,7.09,5.71,3.04,10.85,7.38,15.26,12.96l9.15,11.6-14.7,1.52c-17.09,1.78-31.94-4.49-42.58-17.98l-8.63-10.93c-12.19-1.8-24.33-4.45-36.33-7.99-10.42-3.07-20.55-6.77-30.39-11.02,6.72,8.12,10.31,18.2,10.42,29.68l.15,14.78Z"/>
+      <text class="cls-8" transform="translate(127.35 110.17)"><tspan class="cls-4"><tspan x="0" y="0">CUMBRE DE</tspan></tspan><tspan class="cls-9"><tspan x="0" y="132.38">LIDERES</tspan></tspan></text>
+      <text class="cls-6" transform="translate(0 32.9)"><tspan class="cls-5" x="0" y="0">DELEGADOS </tspan><tspan class="cls-2" x="267.1" y="0">F</tspan><tspan class="cls-3" x="291.87" y="0">T</tspan><tspan class="cls-1" x="313.36" y="0">. </tspan><tspan class="cls-5" x="332.56" y="0">AILE</tspan></text>
+    </g>
+  </g>
+</svg>
