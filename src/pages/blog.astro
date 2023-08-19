@@ -16,12 +16,12 @@ publishedBlogEntries.sort(function (a, b) {
 });
 ---
 
-<Layout title="Blog">
+<Layout title="Noticias">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Our Blog</Fragment>
+      <Fragment slot="title">Noticias</Fragment>
       <Fragment slot="desc">
-        We write about building startups and thoughts going on our mind.
+        Encontrá lo último sobre AILE, nuestros eventos y novedades
       </Fragment>
     </Sectionhead>
     <main class="mt-16">
@@ -31,6 +31,7 @@ publishedBlogEntries.sort(function (a, b) {
             <li>
               <a href={`/blog/${blogPostEntry.slug}`}>
                 <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
+                  <img src={blogPostEntry.data.image.src} alt={blogPostEntry.data.image.alt}>
                   <div>
                     <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
                       {blogPostEntry.data.category}

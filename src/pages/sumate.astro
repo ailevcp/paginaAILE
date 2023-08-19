@@ -1,0 +1,22 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import PricingCard from "@components/sumate.astro";
+---
+
+<Layout title="Sumate">
+  <Container>
+    <Sectionhead>
+      <Fragment slot="title">Sumate</Fragment>
+      <Fragment slot="desc">
+        Completá este formulario y convertite en un líder del mañana.
+        <div class="flex flex-col justify-center items-center pt-10 bg-gradient-to-b from-white to-violet">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5BQ7Upc9oS5lllSSFkfC08-OF7EPaha4FnqKXCk7XEiObwg/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0" >Cargando…</iframe>
+        </div>
+      </Fragment>
+    </Sectionhead>
+
+
+  </Container>
+</Layout>

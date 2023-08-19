@@ -11,29 +11,28 @@ const publishedTeamMembers = await getCollection("team", ({ data }) => {
 });
 ---
 
-<Layout title="About">
+<Layout title="Nosotros">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">About</Fragment>
-      <Fragment slot="desc">We are a small passionate team.</Fragment>
+      <Fragment slot="title">NOSOTROS</Fragment>
+      <Fragment slot="desc">Somos un gran equipo listos para cualquier desafio.</Fragment>
     </Sectionhead>
 
-    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
-      <h2 class="font-bold text-3xl text-gray-800">
-        Empowering the world with Astro.
+    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16 bg-gradient-to-r from-violet to-pink py-10 px-10">
+      <h2 class="font-bold text-3xl text-white">
+        Autoridades AILE.
       </h2>
-      <p class="text-lg leading-relaxed text-slate-500">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
+      <p class="text-lg leading-relaxed text-white">
+        En AILE, tenemos autoridades así como distintos comités encargados de diferentes áreas de vital importancia para la Asosiación. Cada uno de nosotros resulta importante para el funcionamiento orgánico.
       </p>
     </div>
-    <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
+    <div class="grid md:grid-cols-3 gap-7 mx-auto max-w-4xl mt-10 ">
       {
         publishedTeamMembers.map((teamMemberEntry) => (
           <div class="group">
-            <div class="w-full aspect-square">
+            <div class="w-full">
             </div>
+            <img src={teamMemberEntry.data.avatar.src} alt="" class="object-cover sm:w-80 sm:h-80">
 
             <div class="mt-4 text-center">
               <h2 class="text-lg text-gray-800">

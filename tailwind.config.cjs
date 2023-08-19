@@ -16,7 +16,7 @@ module.exports = {
         'pink': '#e50051',
       },
       backgroundImage: {
-        'aile-bg': "url('/src/assets/AILE/ailePortada.jpg')",
+        'aile-bg': "url('/public/FondoPagina.png')",
       }
     },
   },
