@@ -25,39 +25,36 @@ publishedBlogEntries.sort(function (a, b) {
     </Sectionhead>
     <main class="mt-16">
       <ul class="grid gap-16 max-w-4xl mx-auto">
-        {
-          publishedBlogEntries.map((blogPostEntry, index) => (
-            <li>
-              <a href={`/blog/${blogPostEntry.slug}`}>
-                <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
-                  <img src={blogPostEntry.data.image.src} alt={blogPostEntry.data.image.alt}>
-                  <div>
-                    <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
-                      {blogPostEntry.data.category}
+        {publishedBlogEntries.map((blogPostEntry) => (
+          <li>
+            <a href={`/blog/${blogPostEntry.slug}`}>
+              <div class="grid md:grid-cols-2 gap-5 md:gap-10 items-center">
+                <img src={blogPostEntry.data.image.src} alt={blogPostEntry.data.image.alt} />
+                <div>
+                  <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
+                    {blogPostEntry.data.category}
+                  </span>
+                  <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1">
+                    {blogPostEntry.data.title}
+                  </h2>
+                  <div class="flex gap-2 mt-3">
+                    <span class="text-gray-400">
+                      {blogPostEntry.data.author}
                     </span>
-
-                    <h2 class="text-3xl font-semibold leading-snug tracking-tight mt-1 ">
-                      {blogPostEntry.data.title}
-                    </h2>
-
-                    <div class="flex gap-2 mt-3">
-                      <span class="text-gray-400">
-                        {blogPostEntry.data.author}
-                      </span>
-                      <span class="text-gray-400">• </span>
-                      <time
-                        class="text-gray-400"
-                        datetime={blogPostEntry.data.publishDate.toISOString()}>
-                        {blogPostEntry.data.publishDate.toDateString()}
-                      </time>
-                    </div>
+                    <span class="text-gray-400">• </span>
+                    <time
+                      class="text-gray-400"
+                      datetime={blogPostEntry.data.publishDate.toISOString()}>
+                      {new Date(blogPostEntry.data.publishDate).toDateString()}
+                    </time>
                   </div>
                 </div>
-              </a>
-            </li>
-          ))
-        }
+              </div>
+            </a>
+          </li>
+        ))}
       </ul>
     </main>
   </Container>
 </Layout>
+

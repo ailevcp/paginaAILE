@@ -1,6 +1,5 @@
 {
   "name": "astroship",
-  "type": "module",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,7 +7,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint:eslint": "eslint . --ext .js,.ts,.astro"
   },
   "dependencies": {
     "@astro-community/astro-embed-youtube": "^0.4.1",
@@ -22,6 +22,12 @@
     "astro-icon": "^0.8.1",
     "astro-navbar": "^2.0.1",
     "astro-seo": "^0.8.0",
-    "esbuild": "^0.19.2"
+    "esbuild": "0.19.2",
+    "eslint": "^8.48.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-astro": "^0.29.0",
+    "@typescript-eslint/eslint-plugin": "^6.5.0"
+
   }
 }
